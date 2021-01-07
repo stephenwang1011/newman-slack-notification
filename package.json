@@ -1,0 +1,33 @@
+{
+  "name": "newman-slack-notification",
+  "version": "1.0.0",
+  "description": "newman(POSTMAN)完成API 测试之后，给slack频道发送测试结果通知",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stephenwang1011/newman-slack-notification"
+  },
+  "keywords": [
+    "newman",
+    "postman",
+    "slack"
+  ],
+  "author": "398733146@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephenwang1011/newman-slack-notification/issues"
+  },
+  "homepage": "https://github.com/stephenwang1011/newman-slack-notification/#readme",
+  "dependencies": {
+    "@slack/client": "^4.3.1",
+    "markdown-table": "^1.1.2",
+    "pretty-ms": "^3.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
